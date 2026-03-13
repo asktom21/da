@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Noto Sans KR', sans-serif;
+  --color-hanjin-blue: #003478;
+  --color-hanjin-dark: #00244f;
+  --color-hanjin-light: #0055b8;
+  --color-hanjin-accent: #0077cc;
+  --color-hanjin-sky: #e8f4fd;
+  --color-hanjin-gray: #f5f7fa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #003478;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00244f;
+}
